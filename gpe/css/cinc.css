@@ -1,0 +1,142 @@
+body{
+	background: #E6E6FA;
+}
+
+header, nav, section, aside, footer{
+	width: 100%;
+}
+
+header{
+	background: #B0C4DE;
+}
+
+nav{
+	display: block;
+	margin: 0 auto 20px;
+	/*border: 1px solid #222;*/
+	position: relative;
+	background: #A9A9A9;
+	font: 16px;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+nav li{
+	position: relative;
+	float: left;
+	list-style-type: none;
+}
+
+nav li a{
+	display: block;
+	padding: 5px 10px;
+	border-left: 1px solid #999;
+	border-right: 1px solid #222;
+	color: #000;
+	text-decoration: none;
+}
+
+nav li a:focus{
+	outline: none;
+	text-decoration: underline;
+}
+
+nav li:first-child a{
+	border-left: none;
+}
+
+nav li:hover ol{
+	display: block;
+}
+
+nav ul ol{
+	display: none;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background: white;
+}
+nav ul ol li{
+	float: none;
+}
+
+nav ul ol a{
+	padding: 5px 10px;
+	border-left: none;
+	border-right: none;
+	font-size: 14px;
+}
+
+nav ul ol a:hover{
+	background-color: #FBE080;
+}
+
+.cuerpo-pagina{
+	background: white;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.principales{
+	background: #B0C4DE;
+}
+.art1{
+	background: #00BFFF;
+}
+.art2{
+	background: #1E90FF;
+}
+.art3{
+	background: #4169E1;
+}
+
+.contenidos{
+	background: #A9A9A9;
+}
+.ctd1{
+	background: #6B8E23;
+}
+.ctd2{
+	background: #3CB371;
+}
+.ctd3{
+	background: #A0522D;
+}
+.ctd4{
+	background: #BDB76B;
+}
+
+.secundarios{
+	background: #F5F5DC;
+}
+.sec1{
+	background: #BC8F8F;
+}
+.sec2{
+	background: #D2691E;
+}
+.sec3{
+	background: #DB7093;
+}
+
+footer{
+	background: black;
+	color: white;
+}
+
+.encabezado, .navegacion, .principales, .contenidos, .secundarios, .pie-pagina{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
